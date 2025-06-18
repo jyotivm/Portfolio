@@ -1,0 +1,1456 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+<!-- Mirrored from demo.rstheme.com/html/flixta/index-seo-specialist.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Jun 2025 08:19:38 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>KitesBIM</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/Kites_Logo.png">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome-pro.css">
+    <link rel="stylesheet" href="assets/css/vendor/spacing.css">
+    <link rel="stylesheet" href="assets/css/vendor/remixicon.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/typewritinganimation.css">
+
+
+  
+   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .marquee-container {
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+    }
+
+    .marquee-row {
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      padding: 15px 0;
+    }
+    .scrolling-wrap:hover {
+      animation-play-state: paused;
+    }
+
+
+    .row-1 {
+      background-color: white;
+      color: black;
+      border-bottom: 2px solid black;
+    }
+
+    .row-2 {
+      background-color: #d6ff00; /* Neon yellow */
+      color: black;
+    }
+
+    .scrolling-wrap {
+      display: inline-flex;
+      width: max-content;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    .slow {
+      animation: scroll-left 40s linear infinite;
+    }
+
+    .fast {
+      animation: scroll-left 15s linear infinite;
+    }
+
+    .cmn-textslide {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 2rem;
+      margin-right: 40px;
+      color: inherit;
+    }
+
+    .cmn-textslide img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+ 
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; 
+  pointer-events: all;
+}
+
+.content {
+  position: relative;
+  z-index: 1; 
+}
+
+    /* * {
+    outline: 1px solid rgba(0,0,0,0.05);
+    } */
+
+
+#header-sticky {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* footer section starts */
+.footer {
+  min-height: auto;
+  padding-top: 0;
+  background: #5142d1;
+}
+.footer .box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer .box-container .box {
+  flex: 1 1 25rem;
+  margin: 2.5rem;
+}
+.footer .box-container .box h3 {
+  font-size: 2.5rem;
+  color: #fff;
+  padding-bottom: 1rem;
+  font-weight: normal;
+}
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: #ccc;
+  padding: 0.7rem 0;
+  text-transform: none;
+}
+.footer .box-container .box p i {
+  padding-right: 1rem;
+  color: #ffae00;
+}
+.footer .box-container .box a {
+  font-size: 1.5rem;
+  color: rgb(238, 238, 238);
+  padding: 0.3rem 0;
+  display: block;
+}
+.footer .box-container .box a:hover {
+  color: #ffae00;
+}
+.footer .box-container .box .share {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.footer .box-container .box .share a {
+  height: 4rem;
+  width: 4rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5rem;
+  font-size: 1.7rem;
+  margin-right: 1rem;
+  transition: 0.2s;
+  background: rgb(230, 230, 230);
+  color: #02094b;
+  border: none;
+}
+.footer .box-container .box .share a:hover {
+  background: transparent;
+  transform: scale(0.98);
+  border: 0.1rem solid rgb(180, 178, 178);
+  color: #ffae00;
+}
+.footer .credit {
+  padding: 1rem 0 0 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  border-top: 0.1rem solid #fff3;
+}
+.footer .credit a {
+  color: #ffae00;
+}
+.footer .fa {
+  color: #e90606;
+  margin: 0 0.3rem;
+  font-size: 1.5rem;
+  animation: pound 0.35s infinite alternate;
+}
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 450px) {
+  .footer .box-container .box {
+    margin: 1.5rem;
+  }
+  .footer .box-container .box p {
+    padding: 0.7rem;
+  }
+  .footer .box-container .box .share a {
+    padding: 1.2rem;
+  }
+}
+/* footer section ends */
+
+/* */
+
+.hero {
+  padding: 60px 20px;
+}
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.hero-image img {
+  width: 350px;
+  max-width: 100%;
+}
+.hero-text {
+  max-width: 600px;
+}
+.badge {
+  display: inline-block;
+  background: #f2f2ff;
+  color: #4e5fe4;
+  font-weight: 700;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #130f40;
+  margin-bottom: 20px;
+}
+.hero-text p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+.features {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 30px;
+}
+.features li {
+  font-size: 16px;
+  color: #222;
+}
+.btn {
+  background: #6c5ce7;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #5a4cd1;
+}
+
+</style>
+</head>
+
+<body class="rs-smoother-yes">
+
+    <!-- preloader start -->
+    <div id="pre-load">
+        <div id="loader" class="loader">
+            <div class="loader-container">
+                <div class="loader-icon"><img src="assets/images/Kites_Logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- preloader start -->
+
+    <div id="rs-mouse">
+        <div id="cursor-ball"></div>
+    </div>
+
+    <!-- preloader end -->
+<!-- Header area start -->
+    <header>
+        <div class="rs-header-area header-style-one header-transparent" id="header-sticky" style="position: fixed;top: -16px;left: 0;width: 100%;z-index: 999;height: 75px;">
+            <div class="container">
+                <div class="rs-header-inner" >
+                    <div class="rs-header-left">
+                        <div class="rs-header-logo">
+                            <!-- <a class="logo-black d-flex align-items-center gap-2" href="index-seo-specialist.html" style="text-decoration: none;"> -->
+                                <a class="logo-black d-flex align-items-center gap-2" href="index.html" style="text-decoration: none;">
+                                <img src="assets/images/Kites_Logo.png" alt="logo" style="height: 40px; width: auto;">
+                                <span style="font-size: 20px; font-weight: 600; color: #000;">KitesBIM</span>
+                                </a>
+
+                        </div>
+                    </div>
+                    <div class="rs-header-menu">
+                        <nav id="mobile-menu" class="main-menu has-theme-yellow">
+                            <ul class="multipage-menu">
+                                <li><a href="index.html#home">Home</a></li>
+                                 <li><a href="#about">About</a></li>
+                               <!--  <li><a href="index.html#about">About</a></li> -->
+                                <!-- page menu -->
+                                  <li><a href="#services">Services</a></li>
+                                <li><a href="portfolio-details.html">Products</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="rs-header-right">
+                        <div class="rs-header-hamburger">
+                            <div class="sidebar-toggle">
+                                <a class="bar-icon" href="javascript:void(0)">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header area end -->
+
+    <!-- Offcanvas area start -->
+    <div class="fix">
+        <div class="offcanvas-area" data-lenis-prevent>
+            <div class="offcanvas-wrapper">
+                <div class="offcanvas-content">
+                    <div class="offcanvas-top d-flex justify-content-between align-items-center mb-25">
+                        <div class="offcanvas-logo">
+                            <a class="logo-black d-flex align-items-center gap-2" href="index.html" style="text-decoration: none;">
+                            <img src="assets/images/Kites_Logo.png" alt="logo" style="height: 40px; width: auto;">
+                            <span style="font-size: 20px; font-weight: 600; color: #000;">KitesBIM</span>   
+                            </a>
+                            </div>
+
+                        <div class="offcanvas-close">
+                            <button class="offcanvas-close-icon animation--flip">
+                                <span class="offcanvas-m-lines">
+                                <span class="offcanvas-m-line line--1"></span><span
+                                    class="offcanvas-m-line line--2"></span><span
+                                    class="offcanvas-m-line line--3"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mobile-menu">
+                        <div class="rs-offcanvas-menu mb-25">
+                            <nav></nav>
+                        </div>
+                    </div>
+                    <div class="offcanvas-contact mb-30">
+                        <h4 class="offcanvas-title-meta">Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center gap-15">
+                                <div class="offcanvas-contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18" fill="none">
+                                        <path d="M11.8768 9.68475C11.3059 10.835 10.5331 11.9818 9.74128 13.0109C8.95198 14.0368 8.15999 14.9249 7.5643 15.5572C7.48514 15.6412 7.40956 15.7206 7.33802 15.7951C7.26648 15.7206 7.1909 15.6412 7.11174 15.5572C6.51605 14.9249 5.72406 14.0368 4.93476 13.0109C4.14299 11.9818 3.37019 10.835 2.79925 9.68475C2.22242 8.52266 1.89032 7.43373 1.89032 6.5C1.89032 3.50846 4.32934 1.08333 7.33802 1.08333C10.3467 1.08333 12.7857 3.50846 12.7857 6.5C12.7857 7.43373 12.4536 8.52266 11.8768 9.68475ZM7.33802 17.3333C7.33802 17.3333 13.8753 11.1732 13.8753 6.5C13.8753 2.91015 10.9484 0 7.33802 0C3.7276 0 0.800781 2.91015 0.800781 6.5C0.800781 11.1732 7.33802 17.3333 7.33802 17.3333Z" fill="#6D6D6D"></path>
+                                        <path d="M7.33802 8.66667C6.13455 8.66667 5.15894 7.69662 5.15894 6.5C5.15894 5.30338 6.13455 4.33333 7.33802 4.33333C8.54149 4.33333 9.5171 5.30338 9.5171 6.5C9.5171 7.69662 8.54149 8.66667 7.33802 8.66667ZM7.33802 9.75C9.14323 9.75 10.6066 8.29492 10.6066 6.5C10.6066 4.70507 9.14323 3.25 7.33802 3.25C5.53281 3.25 4.0694 4.70507 4.0694 6.5C4.0694 8.29492 5.53281 9.75 7.33802 9.75Z" fill="#6D6D6D"></path>
+                                    </svg>
+                                </div>
+                                <div class="offcanvas-contact-text">
+                                    <a href="#"> Vapi, India-396195</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center gap-15">
+                                <div class="offcanvas-contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M3.65387 1.32849C3.40343 1.00649 2.92745 0.976861 2.639 1.26531L1.60508 2.29923C1.1216 2.78271 0.94387 3.46766 1.1551 4.06847C2.00338 6.48124 3.39215 8.74671 5.32272 10.6773C7.25329 12.6078 9.51876 13.9966 11.9315 14.8449C12.5323 15.0561 13.2173 14.8784 13.7008 14.3949L14.7347 13.361C15.0231 13.0726 14.9935 12.5966 14.6715 12.3461L12.3653 10.5524C12.2008 10.4245 11.9866 10.3793 11.7845 10.4298L9.59541 10.9771C9.00082 11.1257 8.37183 10.9515 7.93845 10.5181L5.48187 8.06155C5.04849 7.62817 4.87427 6.99919 5.02292 6.40459L5.57019 4.21553C5.62073 4.01336 5.57552 3.79918 5.44758 3.63468L3.65387 1.32849ZM1.88477 0.511076C2.62689 -0.231039 3.8515 -0.154797 4.49583 0.673634L6.28954 2.97983C6.6187 3.40304 6.73502 3.95409 6.60498 4.47423L6.05772 6.66329C5.99994 6.8944 6.06766 7.13888 6.2361 7.30732L8.69268 9.7639C8.86113 9.93235 9.1056 10.0001 9.33671 9.94229L11.5258 9.39502C12.0459 9.26499 12.597 9.3813 13.0202 9.71047L15.3264 11.5042C16.1548 12.1485 16.231 13.3731 15.4889 14.1152L14.455 15.1492C13.7153 15.8889 12.6089 16.2137 11.5778 15.8512C9.01754 14.9511 6.61438 13.4774 4.56849 11.4315C2.5226 9.38562 1.04895 6.98246 0.148838 4.42225C-0.213682 3.39112 0.11113 2.28472 0.85085 1.545L1.88477 0.511076Z" fill="#6D6D6D"></path>
+                                        <path d="M11 0.5C11 0.223858 11.2239 0 11.5 0H15.5C15.7761 0 16 0.223858 16 0.5V4.5C16 4.77614 15.7761 5 15.5 5C15.2239 5 15 4.77614 15 4.5V1.70711L10.8536 5.85355C10.6583 6.04882 10.3417 6.04882 10.1464 5.85355C9.95118 5.65829 9.95118 5.34171 10.1464 5.14645L14.2929 1H11.5C11.2239 1 11 0.776142 11 0.5Z" fill="#6D6D6D"></path>
+                                    </svg>
+                                </div>
+                                <div class="offcanvas-contact-text">
+                                    <a href="tel:+12346691234"> +91 96891 29430 </a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center gap-15">
+                                <div class="offcanvas-contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M2 2C0.895431 2 0 2.89543 0 4V12L2.58386e-05 12.0103C0.00555998 13.1101 0.898859 14 2 14H7.5C7.77614 14 8 13.7761 8 13.5C8 13.2239 7.77614 13 7.5 13H2C1.53715 13 1.14774 12.6855 1.03376 12.2586L6.67417 8.7876L8 9.5831L15 5.3831V8.5C15 8.77614 15.2239 9 15.5 9C15.7761 9 16 8.77614 16 8.5V4C16 2.89543 15.1046 2 14 2H2ZM5.70808 8.20794L1 11.1052V5.3831L5.70808 8.20794ZM1 4.2169V4C1 3.44772 1.44772 3 2 3H14C14.5523 3 15 3.44772 15 4V4.2169L8 8.4169L1 4.2169Z" fill="#6D6D6D"></path>
+                                        <path d="M14.2467 14.2686C15.2567 14.2686 15.8339 13.4116 15.8339 12.2442V12.0344C15.8339 10.4297 14.6402 9 12.5197 9H12.4847C10.421 9 9 10.3598 9 12.4322V12.6465C9 14.8195 10.4385 16 12.3579 16H12.4016C12.9963 16 13.4204 15.9257 13.639 15.8251V15.0949C13.3941 15.2042 12.9656 15.2742 12.4585 15.2742H12.4147C11.0812 15.2742 9.84385 14.4872 9.84385 12.6202V12.4628C9.84385 10.8057 10.9019 9.73891 12.4847 9.73891H12.524C14.0587 9.73891 15.0075 10.7883 15.0075 12.065V12.183C15.0075 13.158 14.6839 13.5734 14.3691 13.5734C14.1374 13.5734 13.9582 13.4247 13.9582 13.1537V10.9631H13.0531V11.5315H13.0225C12.9394 11.2342 12.6552 10.9019 12.0693 10.9019C11.2911 10.9019 10.8101 11.4572 10.8101 12.3011V12.8301C10.8101 13.722 11.2998 14.2642 12.0693 14.2642C12.5415 14.2642 12.9656 14.0369 13.0837 13.6215H13.1274C13.2455 14.0412 13.7439 14.2686 14.2467 14.2686ZM11.7939 12.6814V12.4541C11.7939 11.9076 12.0212 11.6627 12.3666 11.6627C12.664 11.6627 12.9394 11.8551 12.9394 12.371V12.7383C12.9394 13.3111 12.6858 13.4816 12.3754 13.4816C12.0212 13.4816 11.7939 13.2673 11.7939 12.6814Z" fill="#6D6D6D"></path>
+                                    </svg>
+                                </div>
+                                <div class="offcanvas-contact-text">
+                                    <a href="mailto:hello@flixta.com">singhjyotivmgmail.com</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="offcanvas-social">
+                        <h4 class="offcanvas-title-meta">Subscribe & Follow</h4>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas-overlay"></div>
+    <div class="offcanvas-overlay-white"></div>
+    <!-- Offcanvas area start -->
+    <!-- Body main wrapper start -->
+    <main>
+
+        <!-- banner area start -->
+    <section id="home" class="rs-banner-area rs-banner-five p-relative" style="position: relative; overflow: hidden;">
+  <!-- Particle Canvas -->
+  <div id="particles-js"></div>
+
+
+  <div class="rs-banner-bg" data-background="assets/images/bg/banner-bg-04.png"></div>
+
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-xxl-6 col-xl-6 col-lg-6">
+        <div class="rs-banner-content-wrapper" style="position: relative; z-index: 1;">
+          <div class="rs-banner-content">
+            <h1 class="rs-banner-title wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".7s">
+              Hi There,
+              <span class="rs-mark-text">
+                We're
+                <span class="cd-headline slide rs-title-slide">
+                  <span class="cd-words-wrapper">
+                    <!-- <b class="is-hidden " style="color: #5142d1;">KitesBIM</b> -->
+                    <b class="is-visible " style="color: #5142d1;">KitesBIM</b>
+                   <!--  <b class="is-hidden " style="color: #5142d1;">KitesBIM</b> -->
+                  </span>
+                </span>
+              </span>
+            </h1>
+          
+            
+            <!-- jyoti typewriting animation -->
+            <h1>
+             <div class="typing-container" id="typec1">
+                Let's Build <span class="dynamic-text" id="typed-text"></span>
+            </div>
+            </h1>
+            <!-- jyoti typewriting animation close-->
+            <div class="rs-banner-info-btn wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1.1s">
+              <div class="rs-banner-btn">
+                <a class="rs-btn has-color has-icon has-radius"  href="#about" style="border-radius: 4em;background-color: #5142d1;" >
+                  About Us
+                  <span class="icon-box">
+                    <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                      <path d="…" />
+                    </svg>
+                    <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                      <path d="…" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+              <div class="rs-banner-social">
+                <div class="rs-theme-social">
+                  <a href="https://www.linkedin.com/in/Jyoti Singh"><i class="ri-linkedin-fill" style="color: #5142d1;"></i></a>
+                  <a href="https://t.me/im_jyotivm"><i class="ri-telegram-fill" style="color: #5142d1;"></i></a>
+                  <a href="mailto:singhjyotivm@gmail.com"><i class="ri-mail-fill" style="color: #5142d1;"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-6 col-xl-6 col-lg-6">
+        <div class="rs-banner-thumb wow fadeInRight" data-wow-delay="1.1s" data-wow-duration="1.5s" style="position: relative; z-index: 1;">
+            <div class="logo-wrapper">
+            <img src="assets/images/banner/Kites_Logo.png" alt="image" class="logo" style="width: 350px; ">
+            </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- banner area end -->
+
+
+<!-- jyoti-->
+
+
+
+
+
+<div class="marquee-container">
+
+  <!-- First row - white background, slow speed -->
+  <div class="marquee-row row-1">
+    <div class="scrolling-wrap slow">
+      <!-- Repeat enough times to fill the viewport and loop seamlessly -->
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <!-- Duplicate set for smooth loop -->
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Making BIM Work For You
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Second row - neon yellow background, faster speed -->
+  <div class="marquee-row row-2">
+    <div class="scrolling-wrap fast">
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Less Click, More Result
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Less Click, More Result
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Less Click, More Result
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Less Click, More Result
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Less Click, More Result
+      </div>
+      <!-- Duplicate set -->
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Less Click, More Result
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Less Click, More Result
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Less Click, More Result
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Less Click, More Result
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Less Click, More Result
+      </div>
+      <div class="cmn-textslide">
+        <img src="https://gramentheme.com/wp/digtek/wp-content/uploads/2024/11/star.png" alt="">
+        Less Click, More Result
+      </div>
+      
+    </div>
+  </div>
+</div>
+        <!-- about area start -->
+       <section id="about" class="rs-about-area section-space-bottom rs-about-four" style=" margin-top: 100px;">
+            <div class="container">
+                <div class="row g-5 align-items-xl-center">
+                    <div class="col-xxl-6 col-xl-5 col-lg-5">
+                        <div class="rs-about-thumb wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s">
+                            <img src="assets/images/1.jpeg" alt="image" style="margin-top: 30px;">
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-7 col-lg-7">
+                        <div class="rs-about-content wow fadeInRight" data-wow-delay=".3s" data-wow-duration="1s">
+                            <div class="rs-section-title-wrapper section-title-space">
+                                <span class="rs-section-subtitle justify-content-start has-text-style" style="color: #5142d1;">
+                           About Me
+                        </span>
+                                <h2 class="rs-section-title mb-30 rs-split-text-enable split-in-fade">Hi, I'm Kushal – KitesBIM</h2>
+                                <p class="rs-section-paragraph">
+                                    I’m a Civil Engineer by profession and a Revit API Developer by passion. I’ve spent years working with Revit and learning how to create smart tools using the Revit API. KitesBIM is my independent platform where I create smart Revit plugins that simplify everyday project challenges. Every plugin and script I develop is tested in real-world project environments and focused on solving common pain points. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+       
+      
+        <!-- about area end -->
+
+        <!-- portfolio area start -->
+        <section class="rs-portfolio-area secondary-bg section-space rs-portfolio-five">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-10 col-md-10">
+                        <div class="rs-section-title-wrapper section-title-space text-center">
+                            <span class="rs-section-subtitle has-text-style" style="color: #5142d1;">
+                        Products
+                     </span>
+                            <h2 class="rs-section-title mb-20 rs-split-text-enable split-in-fade">Explore our tools </h2> 
+                            <p class="rs-section-paragraph">
+                               Below are a set of custom-built tools developed to improve Revit workflows and reduce manual work. Each tool is designed to solve real project challenges and help you work faster and smarter.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                        <div class="rs-portfolio-wrapper wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                            <div class="rs-portfolio-item">
+                                <div class="rs-portfolio-thumb">
+                                    <a href="portfolio-details.html">
+                                        <img src="assets/images/portfolio/portfolio-thumb-10.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="rs-portfolio-content">
+                                    <h5 class="rs-portfolio-title">
+                                        <a href="portfolio-details.html">Calculate Formwork</a>
+                                    </h5>
+                                    <span class="rs-portfolio-tag">Qs-Billing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                        <div class="rs-portfolio-wrapper wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
+                            <div class="rs-portfolio-item">
+                                <div class="rs-portfolio-thumb">
+                                    <a href="portfolio-details.html">
+                                        <img src="assets/images/portfolio/portfolio-thumb-11.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="rs-portfolio-content">
+                                    <h5 class="rs-portfolio-title">
+                                        <a href="portfolio-details.html">Auto Numbering</a>
+                                    </h5>
+                                    <span class="rs-portfolio-tag">Modeling</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                        <div class="rs-portfolio-wrapper wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                            <div class="rs-portfolio-item">
+                                <div class="rs-portfolio-thumb">
+                                    <a href="portfolio-details.html">
+                                        <img src="assets/images/portfolio/portfolio-thumb-12.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="rs-portfolio-content">
+                                    <h5 class="rs-portfolio-title">
+                                        <a href="portfolio-details.html">Aling-Tag Text</a>
+                                    </h5>
+                                    <span class="rs-portfolio-tag">Modeling</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                        <div class="rs-portfolio-wrapper wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">
+                            <div class="rs-portfolio-item">
+                                <div class="rs-portfolio-thumb">
+                                    <a href="portfolio-details.html">
+                                        <img src="assets/images/portfolio/portfolio-thumb-13.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="rs-portfolio-content">
+                                    <h5 class="rs-portfolio-title">
+                                        <a href="portfolio-details.html">Coming Soon</a>
+                                    </h5>
+                                   <!--  <span class="rs-portfolio-tag"></span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                        <div class="rs-portfolio-wrapper wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                            <div class="rs-portfolio-item">
+                                <div class="rs-portfolio-thumb">
+                                    <a href="portfolio-details.html">
+                                        <img src="assets/images/portfolio/portfolio-thumb-14.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="rs-portfolio-content">
+                                    <h5 class="rs-portfolio-title">
+                                        <a href="portfolio-details.html">Coming Soon</a>
+                                    </h5>
+                                  <!--   <span class="rs-portfolio-tag"></span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                        <div class="rs-portfolio-wrapper wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s">
+                            <div class="rs-portfolio-item">
+                                <div class="rs-portfolio-thumb">
+                                    <a href="portfolio-details.html">
+                                        <img src="assets/images/portfolio/portfolio-thumb-15.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="rs-portfolio-content">
+                                    <h5 class="rs-portfolio-title">
+                                        <a href="portfolio-details.html">Coming Soon</a>
+                                    </h5>
+                                    <!-- <span class="rs-portfolio-tag"></span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </section>
+        <!-- portfolio area end -->
+
+        <!-- services-area start -->
+        <section id="services"  id="services" class="rs-services-area rs-services-five section-space">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-10 col-md-10">
+                        <div class="rs-section-title-wrapper section-title-space text-center">
+                            <span class="rs-section-subtitle has-text-style" style="color: #5142d1;">
+                        Services
+                     </span>
+                            <h2 class="rs-section-title mb-20 rs-split-text-enable split-in-fade">What We Do For You</h2>
+                            <p class="rs-section-paragraph">
+                                Hello there, My name is Marshall. I'm a freelancer, I'm winner of the world's most prestigious
+                                web design awards in the fields of UI, UX, and innovation. every project I take on.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="rs-services-wrapper wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                            <div class="rs-services-item">
+                                <div class="rs-services-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+                                        <defs></defs>
+                                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                            <path d="M 52.436 48.271 H 37.564 c -0.403 0 -0.767 -0.242 -0.923 -0.614 c -2.246 -5.376 -3.433 -11.812 -3.433 -18.611 c 0 -13.15 4.528 -24.764 11.269 -28.899 c 0.321 -0.196 0.725 -0.196 1.046 0 c 6.74 4.135 11.268 15.749 11.268 28.899 c 0 6.801 -1.188 13.236 -3.433 18.611 C 53.203 48.029 52.839 48.271 52.436 48.271 z M 38.237 46.271 h 13.525 c 1.982 -5.007 3.028 -10.946 3.028 -17.225 c 0 -11.93 -3.999 -22.82 -9.791 -26.852 c -5.792 4.032 -9.792 14.921 -9.792 26.852 C 35.208 35.324 36.254 41.263 38.237 46.271 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 27.929 53.817 c -0.173 0 -0.346 -0.045 -0.5 -0.135 c -0.309 -0.179 -0.5 -0.508 -0.5 -0.865 v -9.738 c 0 -0.208 0.064 -0.41 0.185 -0.579 l 6.498 -9.153 c 0.243 -0.341 0.675 -0.495 1.077 -0.386 c 0.404 0.109 0.698 0.459 0.735 0.877 c 0.422 4.748 1.481 9.259 3.064 13.048 c 0.194 0.465 0.012 1.001 -0.424 1.252 l -9.636 5.546 C 28.273 53.772 28.101 53.817 27.929 53.817 z M 28.929 43.398 v 7.69 l 7.383 -4.249 c -1.195 -3.072 -2.073 -6.545 -2.583 -10.203 L 28.929 43.398 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 62.071 53.817 c -0.172 0 -0.345 -0.044 -0.499 -0.134 l -9.636 -5.546 c -0.437 -0.251 -0.618 -0.787 -0.424 -1.252 c 1.583 -3.79 2.644 -8.302 3.064 -13.048 c 0.037 -0.417 0.33 -0.768 0.734 -0.877 c 0.405 -0.111 0.835 0.045 1.077 0.386 l 6.498 9.153 c 0.12 0.169 0.185 0.372 0.185 0.579 v 9.738 c 0 0.357 -0.19 0.687 -0.499 0.865 C 62.417 53.772 62.244 53.817 62.071 53.817 z M 53.688 46.839 l 7.383 4.249 v -7.69 l -4.8 -6.761 C 55.763 40.293 54.884 43.766 53.688 46.839 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 45 30.885 c -3.712 0 -6.731 -3.02 -6.731 -6.731 s 3.02 -6.731 6.731 -6.731 s 6.731 3.02 6.731 6.731 S 48.712 30.885 45 30.885 z M 45 19.422 c -2.609 0 -4.731 2.123 -4.731 4.731 s 2.123 4.731 4.731 4.731 c 2.609 0 4.731 -2.123 4.731 -4.731 S 47.609 19.422 45 19.422 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 45 61.605 c -0.181 0 -0.363 -0.049 -0.523 -0.147 c -2.179 -1.337 -3.587 -4.844 -3.587 -8.935 c 0 -2.052 0.361 -4.001 1.044 -5.638 c 0.156 -0.372 0.52 -0.614 0.923 -0.614 h 4.285 c 0.403 0 0.768 0.242 0.923 0.614 c 0.683 1.635 1.044 3.584 1.044 5.638 c 0 4.091 -1.408 7.598 -3.586 8.935 C 45.363 61.557 45.181 61.605 45 61.605 z M 43.548 48.271 c -0.427 1.258 -0.658 2.742 -0.658 4.252 c 0 3.329 1.016 5.717 2.11 6.809 c 1.093 -1.092 2.109 -3.479 2.109 -6.809 c 0 -1.512 -0.231 -2.995 -0.658 -4.252 H 43.548 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 45 84.837 c -0.552 0 -1 -0.447 -1 -1 V 67.099 c 0 -0.553 0.448 -1 1 -1 s 1 0.447 1 1 v 16.738 C 46 84.39 45.552 84.837 45 84.837 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 35.564 75.813 c -0.552 0 -1 -0.447 -1 -1 V 55.479 c 0 -0.553 0.448 -1 1 -1 s 1 0.447 1 1 v 19.335 C 36.564 75.366 36.117 75.813 35.564 75.813 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 54.436 77.511 c -0.553 0 -1 -0.447 -1 -1 V 57.176 c 0 -0.553 0.447 -1 1 -1 s 1 0.447 1 1 v 19.335 C 55.436 77.063 54.988 77.511 54.436 77.511 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 76.741 90 H 13.259 C 8.735 90 4.94 86.446 4.8 82.078 c -0.116 -3.604 2.183 -6.87 5.551 -8.018 c 1.131 -7.771 7.766 -13.55 15.7 -13.55 c 0.936 0 1.873 0.082 2.784 0.244 c 0.544 0.097 0.906 0.615 0.81 1.159 c -0.097 0.543 -0.617 0.906 -1.159 0.81 c -0.796 -0.142 -1.615 -0.213 -2.434 -0.213 c -7.132 0 -13.063 5.343 -13.794 12.427 c -0.043 0.42 -0.345 0.768 -0.755 0.868 c -2.819 0.695 -4.796 3.307 -4.703 6.208 C 6.905 85.314 9.803 88 13.259 88 h 63.482 c 3.456 0 6.354 -2.686 6.46 -5.986 c 0.093 -2.901 -1.884 -5.513 -4.702 -6.208 c -0.41 -0.101 -0.712 -0.448 -0.756 -0.868 c -0.731 -7.084 -6.662 -12.427 -13.794 -12.427 c -0.818 0 -1.638 0.071 -2.434 0.213 c -0.539 0.101 -1.063 -0.266 -1.159 -0.81 s 0.266 -1.063 0.81 -1.159 c 0.911 -0.162 1.848 -0.244 2.783 -0.244 c 7.934 0 14.568 5.778 15.7 13.55 c 3.367 1.147 5.667 4.413 5.55 8.018 C 85.06 86.446 81.265 90 76.741 90 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 17.753 21.391 c -1.921 0 -3.484 -1.563 -3.484 -3.484 c 0 -1.921 1.563 -3.484 3.484 -3.484 c 1.921 0 3.484 1.563 3.484 3.484 C 21.237 19.828 19.674 21.391 17.753 21.391 z M 17.753 16.422 c -0.818 0 -1.484 0.666 -1.484 1.484 s 0.666 1.484 1.484 1.484 s 1.484 -0.666 1.484 -1.484 S 18.571 16.422 17.753 16.422 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 77.72 44.837 c -1.921 0 -3.484 -1.563 -3.484 -3.484 c 0 -1.921 1.563 -3.484 3.484 -3.484 s 3.484 1.563 3.484 3.484 C 81.204 43.274 79.641 44.837 77.72 44.837 z M 77.72 39.869 c -0.818 0 -1.484 0.666 -1.484 1.484 s 0.666 1.484 1.484 1.484 s 1.484 -0.666 1.484 -1.484 S 78.538 39.869 77.72 39.869 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 65.67 10.139 h -1.164 c -0.553 0 -1 -0.448 -1 -1 s 0.447 -1 1 -1 h 1.164 c 0.553 0 1 0.448 1 1 S 66.223 10.139 65.67 10.139 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 71.506 10.139 h -1.165 c -0.553 0 -1 -0.448 -1 -1 s 0.447 -1 1 -1 h 1.165 c 0.553 0 1 0.448 1 1 S 72.059 10.139 71.506 10.139 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 68.006 7.803 c -0.553 0 -1 -0.448 -1 -1 V 5.639 c 0 -0.552 0.447 -1 1 -1 s 1 0.448 1 1 v 1.164 C 69.006 7.355 68.559 7.803 68.006 7.803 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 68.006 13.639 c -0.553 0 -1 -0.448 -1 -1 v -1.165 c 0 -0.552 0.447 -1 1 -1 s 1 0.448 1 1 v 1.165 C 69.006 13.191 68.559 13.639 68.006 13.639 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 10.159 51.139 H 8.994 c -0.552 0 -1 -0.447 -1 -1 s 0.448 -1 1 -1 h 1.165 c 0.552 0 1 0.447 1 1 S 10.711 51.139 10.159 51.139 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 15.994 51.139 H 14.83 c -0.552 0 -1 -0.447 -1 -1 s 0.448 -1 1 -1 h 1.165 c 0.552 0 1 0.447 1 1 S 16.546 51.139 15.994 51.139 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 12.494 48.803 c -0.552 0 -1 -0.447 -1 -1 v -1.164 c 0 -0.553 0.448 -1 1 -1 s 1 0.447 1 1 v 1.164 C 13.494 48.355 13.046 48.803 12.494 48.803 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 12.494 54.639 c -0.552 0 -1 -0.447 -1 -1 v -1.165 c 0 -0.553 0.448 -1 1 -1 s 1 0.447 1 1 v 1.165 C 13.494 54.191 13.046 54.639 12.494 54.639 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 11.22 34.61 c -0.13 0 -0.26 -0.02 -0.38 -0.07 c -0.13 -0.06 -0.23 -0.13 -0.33 -0.22 c -0.09 -0.09 -0.16 -0.2 -0.21 -0.32 c -0.05 -0.13 -0.08 -0.26 -0.08 -0.39 s 0.03 -0.26 0.08 -0.38 c 0.05 -0.12 0.12 -0.23 0.21 -0.33 c 0.09 -0.09 0.2 -0.16 0.33 -0.21 c 0.24 -0.1 0.52 -0.1 0.76 0 c 0.13 0.05 0.23 0.12 0.33 0.21 c 0.09 0.1 0.16 0.21 0.21 0.33 c 0.06 0.12 0.08 0.25 0.08 0.38 S 12.2 33.87 12.14 34 c -0.05 0.12 -0.12 0.23 -0.21 0.32 C 11.74 34.51 11.48 34.61 11.22 34.61 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 75.22 25.61 c -0.07 0 -0.13 0 -0.2 -0.02 c -0.06 -0.01 -0.12 -0.03 -0.18 -0.05 c -0.06 -0.03 -0.12 -0.06 -0.18 -0.1 c -0.051 -0.03 -0.101 -0.07 -0.15 -0.12 c -0.18 -0.18 -0.29 -0.44 -0.29 -0.71 c 0 -0.26 0.11 -0.52 0.29 -0.7 c 0.05 -0.05 0.1 -0.09 0.15 -0.13 c 0.06 -0.03 0.12 -0.07 0.18 -0.09 c 0.06 -0.03 0.12 -0.04 0.18 -0.06 c 0.33 -0.06 0.681 0.04 0.91 0.28 c 0.18 0.18 0.29 0.44 0.29 0.7 c 0 0.07 -0.01 0.13 -0.02 0.2 c -0.011 0.06 -0.03 0.13 -0.061 0.19 c -0.02 0.06 -0.05 0.11 -0.09 0.17 c -0.04 0.05 -0.08 0.1 -0.12 0.15 C 75.74 25.51 75.479 25.61 75.22 25.61 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 81.22 61.609 c -0.13 0 -0.26 -0.02 -0.38 -0.069 s -0.23 -0.13 -0.33 -0.221 c -0.09 -0.1 -0.16 -0.199 -0.22 -0.329 c -0.05 -0.12 -0.07 -0.25 -0.07 -0.381 c 0 -0.26 0.11 -0.52 0.29 -0.71 c 0.37 -0.369 1.05 -0.369 1.42 0 c 0.18 0.19 0.29 0.45 0.29 0.71 c 0 0.131 -0.03 0.261 -0.08 0.381 c -0.05 0.13 -0.12 0.239 -0.21 0.329 c -0.1 0.091 -0.21 0.171 -0.33 0.221 S 81.35 61.609 81.22 61.609 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 27.22 7.61 c -0.26 0 -0.52 -0.1 -0.71 -0.29 c -0.18 -0.19 -0.29 -0.44 -0.29 -0.71 c 0 -0.13 0.03 -0.26 0.08 -0.38 C 26.35 6.11 26.42 6 26.51 5.9 c 0.38 -0.37 1.05 -0.37 1.42 0 c 0.09 0.1 0.16 0.21 0.21 0.33 c 0.05 0.12 0.08 0.25 0.08 0.38 c 0 0.26 -0.11 0.52 -0.29 0.71 C 27.74 7.51 27.48 7.61 27.22 7.61 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="rs-services-content">
+                                    <h5 class="rs-services-title"><a href="services-details.html">Customer Softwere Development</a></h5>
+                                    <div class="rs-services-description">
+                                        <p>Building Revit add-ins and automation tools tailored to your project needs. From custom scripts to full plugins — built to fit your workflow. </p>
+                                    </div>
+                                    <div class="rs-services-btn">
+                                        <a class="rs-btn has-icon has-transparent" href="services-details.html">Read More
+                                            <span class="icon-box">
+                                    <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                       <path
+                                          d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                       </path>
+                                    </svg>
+                                    <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                       <path
+                                          d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                       </path>
+                                    </svg>
+                                 </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="rs-services-wrapper wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                            <div class="rs-services-item">
+                                <div class="rs-services-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+                                        <defs></defs>
+                                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                            <path d="M 47.497 59.209 l -4.003 -3.616 c -0.521 -0.412 -1.138 -0.703 -1.789 -0.844 l -12.117 -2.565 c -0.541 -0.114 -1.071 0.23 -1.186 0.771 c -0.114 0.54 0.231 1.071 0.771 1.186 l 12.113 2.564 c 0.35 0.075 0.684 0.233 0.916 0.414 l 4.003 3.616 c 1.43 1.132 1.748 3.2 0.726 4.709 l -0.421 0.619 c -1.004 1.48 -2.936 1.965 -4.517 1.138 l -4.469 -3.257 c -0.036 -0.025 -0.073 -0.049 -0.111 -0.07 c -0.51 -0.277 -1.061 -0.447 -1.683 -0.511 l -7.523 -0.424 c -0.272 -0.012 -0.54 0.081 -0.74 0.269 c -0.199 0.187 -0.314 0.446 -0.316 0.72 c -0.031 3.314 -1.197 6.693 -3.288 9.636 L 11.559 60.313 c 1.87 -2.123 3.394 -4.106 4.854 -6.022 c 2.781 -3.651 5.183 -6.805 9.108 -9.524 c 2.256 -1.563 5.192 -1.802 7.705 -0.606 l 2.604 1.095 c 0.511 0.214 1.096 -0.026 1.31 -0.534 c 0.214 -0.509 -0.025 -1.096 -0.534 -1.31 l -2.562 -1.076 c -3.114 -1.485 -6.817 -1.183 -9.661 0.787 c -4.186 2.899 -6.676 6.169 -9.56 9.956 c -1.403 1.841 -2.867 3.745 -4.632 5.76 L 9.06 57.622 c -0.181 -0.194 -0.431 -0.309 -0.696 -0.318 c -0.279 -0.022 -0.523 0.085 -0.718 0.267 l -7.327 6.805 c -0.404 0.376 -0.428 1.008 -0.052 1.413 l 17.525 18.871 c 0.197 0.212 0.465 0.319 0.733 0.319 c 0.244 0 0.488 -0.089 0.681 -0.268 l 7.327 -6.804 c 0.194 -0.18 0.309 -0.431 0.319 -0.695 c 0.01 -0.266 -0.086 -0.523 -0.267 -0.718 l -1.336 -1.439 c 2.254 -3.048 3.608 -6.556 3.86 -10.062 l 6.463 0.363 c 0.291 0.029 0.571 0.113 0.833 0.247 l 4.467 3.256 c 0.035 0.025 0.072 0.049 0.11 0.069 c 2.5 1.363 5.587 0.612 7.183 -1.742 l 0.42 -0.619 C 50.194 64.196 49.694 60.945 47.497 59.209 z M 18.578 82.565 L 2.413 65.159 l 5.861 -5.443 l 16.165 17.406 L 18.578 82.565 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 83.844 12.102 c -8.5 -9.153 -22.863 -9.685 -32.021 -1.184 c -4.435 4.119 -7 9.718 -7.224 15.766 c -0.168 4.544 1.002 8.932 3.341 12.715 l -7.767 7.214 c -0.404 0.376 -0.428 1.008 -0.052 1.413 c 0.197 0.212 0.465 0.319 0.733 0.319 c 0.244 0 0.488 -0.089 0.681 -0.268 l 7.551 -7.012 c 0.484 0.646 0.997 1.274 1.555 1.874 c 0.559 0.601 1.143 1.166 1.749 1.692 l -6.462 6.002 c -0.404 0.376 -0.428 1.008 -0.052 1.413 c 0.197 0.212 0.464 0.319 0.733 0.319 c 0.244 0 0.488 -0.089 0.681 -0.268 l 6.691 -6.214 c 3.933 2.842 8.596 4.282 13.272 4.282 c 5.521 0 11.055 -2 15.41 -6.044 c 4.435 -4.119 7 -9.718 7.224 -15.766 S 87.963 16.537 83.844 12.102 z M 81.299 42.657 c -8.346 7.751 -21.442 7.267 -29.194 -1.08 c -3.755 -4.043 -5.71 -9.307 -5.506 -14.821 c 0.203 -5.514 2.543 -10.619 6.586 -14.374 c 3.852 -3.577 8.81 -5.521 14.038 -5.521 c 0.26 0 0.521 0.005 0.782 0.015 c 5.514 0.204 10.619 2.543 14.374 6.586 c 3.755 4.043 5.71 9.307 5.506 14.821 C 87.682 33.798 85.342 38.902 81.299 42.657 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 51.232 85.138 H 40.854 c -0.552 0 -1 -0.447 -1 -1 v -7.632 c 0 -0.553 0.448 -1 1 -1 h 10.379 c 0.553 0 1 0.447 1 1 v 7.632 C 52.232 84.69 51.785 85.138 51.232 85.138 z M 41.854 83.138 h 8.379 v -5.632 h -8.379 V 83.138 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 70.116 85.138 H 59.737 c -0.553 0 -1 -0.447 -1 -1 v -22.47 c 0 -0.553 0.447 -1 1 -1 h 10.379 c 0.553 0 1 0.447 1 1 v 22.47 C 71.116 84.69 70.669 85.138 70.116 85.138 z M 60.737 83.138 h 8.379 v -20.47 h -8.379 V 83.138 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 89 85.138 H 78.621 c -0.553 0 -1 -0.447 -1 -1 V 54.924 c 0 -0.553 0.447 -1 1 -1 s 1 0.447 1 1 v 28.214 H 88 V 46.831 c 0 -0.553 0.447 -1 1 -1 s 1 0.447 1 1 v 37.307 C 90 84.69 89.553 85.138 89 85.138 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 54.78 34.481 c -0.287 0 -0.572 -0.123 -0.771 -0.361 c -0.353 -0.425 -0.294 -1.056 0.131 -1.408 l 8.799 -7.31 c 0.21 -0.175 0.48 -0.255 0.757 -0.224 c 0.271 0.032 0.519 0.175 0.683 0.395 l 3.43 4.59 l 12.045 -9.894 c 0.429 -0.352 1.058 -0.289 1.407 0.138 c 0.351 0.427 0.289 1.057 -0.138 1.408 L 68.269 32.373 c -0.211 0.173 -0.484 0.251 -0.755 0.22 c -0.271 -0.033 -0.518 -0.175 -0.681 -0.394 l -3.426 -4.585 l -7.989 6.637 C 55.231 34.405 55.005 34.481 54.78 34.481 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="rs-services-content">
+                                    <h5 class="rs-services-title"><a href="services-details.html">Model based Quantity Extraction</a></h5>
+                                    <div class="rs-services-description">
+                                        <p>Automating accurate quantity takeoffs directly from your Revit model — no more Excel guessing.</p>
+                                    </div>
+                                    <div class="rs-services-btn">
+                                        <a class="rs-btn has-icon has-transparent" href="services-details.html">Read More
+                                            <span class="icon-box">
+                                    <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                       <path
+                                          d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                       </path>
+                                    </svg>
+                                    <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                       <path
+                                          d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                       </path>
+                                    </svg>
+                                 </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="rs-services-wrapper wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                            <div class="rs-services-item">
+                                <div class="rs-services-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+                                        <defs></defs>
+                                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                            <path d="M 85.213 4.748 c -3.044 -3.044 -7.106 -4.72 -11.439 -4.72 c -4.334 0 -8.396 1.676 -11.44 4.72 L 48.752 18.331 c -4.946 4.946 -6.107 12.556 -2.962 18.764 l -8.723 8.723 c -6.208 -3.146 -13.819 -1.984 -18.764 2.963 L 4.72 62.363 C 1.676 65.406 0 69.469 0 73.802 c 0 4.333 1.676 8.395 4.72 11.439 c 3.154 3.154 7.296 4.731 11.439 4.731 c 4.142 0 8.286 -1.577 11.439 -4.731 l 13.583 -13.583 c 4.946 -4.946 6.106 -12.556 2.962 -18.764 l 8.718 -8.718 c 2.315 1.173 4.824 1.753 7.32 1.753 c 4.195 0 8.347 -1.618 11.449 -4.72 l 13.583 -13.583 C 91.521 21.319 91.521 11.056 85.213 4.748 z M 55.58 23.235 l 11.659 -11.659 c 3.073 -3.071 8.072 -3.073 11.145 0 c 3.073 3.073 3.073 8.073 0 11.146 L 66.726 34.381 c -1.791 1.791 -4.294 2.572 -6.762 2.192 c 0.67 -1.646 0.34 -3.607 -0.993 -4.941 l -0.642 -0.641 c -0.857 -0.857 -2 -1.329 -3.218 -1.329 c -0.601 0 -1.183 0.117 -1.722 0.336 C 53.007 27.53 53.788 25.027 55.58 23.235 z M 53.306 32.404 c 0.479 -0.479 1.12 -0.743 1.804 -0.743 c 0.685 0 1.326 0.264 1.805 0.744 l 0.642 0.641 c 0.994 0.995 0.995 2.615 0 3.61 L 36.627 57.586 c -0.995 0.996 -2.615 0.995 -3.609 0 l -0.642 -0.642 c -0.479 -0.479 -0.743 -1.12 -0.743 -1.805 c 0 -0.684 0.264 -1.325 0.743 -1.804 L 53.306 32.404 z M 34.353 66.754 L 22.694 78.412 c -3.073 3.072 -8.073 3.072 -11.146 0 c -3.072 -3.073 -3.072 -8.072 0 -11.145 l 11.659 -11.659 c 1.792 -1.791 4.294 -2.574 6.763 -2.192 c -0.219 0.539 -0.336 1.121 -0.336 1.722 c 0 1.219 0.472 2.362 1.328 3.218 l 0.642 0.642 c 0.887 0.887 2.053 1.33 3.218 1.33 c 0.586 0 1.172 -0.113 1.723 -0.337 C 36.927 62.46 36.145 64.962 34.353 66.754 z M 39.769 70.246 L 26.186 83.828 c -5.528 5.529 -14.524 5.529 -20.053 0 c -2.666 -2.666 -4.135 -6.227 -4.135 -10.026 c 0 -3.8 1.468 -7.361 4.135 -10.027 l 13.583 -13.583 c 4.178 -4.178 10.53 -5.281 15.86 -2.884 l -4.342 4.342 c -3.393 -0.871 -6.958 0.063 -9.439 2.545 L 10.136 65.854 c -3.852 3.852 -3.852 10.119 0 13.971 c 1.926 1.926 4.456 2.888 6.986 2.888 s 5.06 -0.962 6.986 -2.888 l 11.659 -11.658 c 2.483 -2.483 3.414 -6.046 2.544 -9.438 l 4.342 -4.342 C 45.048 59.715 43.947 66.067 39.769 70.246 z M 83.8 26.214 L 70.218 39.797 c -4.179 4.177 -10.532 5.279 -15.858 2.883 l 4.326 -4.326 c 0.829 0.214 1.668 0.324 2.5 0.324 c 2.574 0 5.075 -1.005 6.954 -2.884 l 11.658 -11.659 c 3.852 -3.852 3.852 -10.119 0 -13.972 c -3.853 -3.852 -10.12 -3.853 -13.971 0 L 54.167 21.822 c -2.483 2.482 -3.414 6.047 -2.544 9.439 l -4.342 4.342 c -2.396 -5.328 -1.294 -11.681 2.884 -15.86 L 63.748 6.161 c 2.666 -2.666 6.227 -4.135 10.027 -4.135 c 3.799 0 7.36 1.468 10.026 4.135 C 89.329 11.69 89.329 20.685 83.8 26.214 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 44.967 74.276 c -0.552 0 -0.999 -0.447 -0.999 -0.999 c 0 -0.552 0.447 -0.999 0.999 -0.999 c 15.044 0 27.283 -12.239 27.283 -27.283 c 0 -0.552 0.447 -0.999 0.999 -0.999 s 0.999 0.447 0.999 0.999 C 74.248 61.14 61.112 74.276 44.967 74.276 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 16.684 45.994 c -0.552 0 -0.999 -0.447 -0.999 -0.999 c 0 -16.146 13.136 -29.282 29.282 -29.282 c 0.552 0 0.999 0.447 0.999 0.999 c 0 0.552 -0.447 0.999 -0.999 0.999 c -15.044 0 -27.283 12.239 -27.283 27.283 C 17.684 45.546 17.236 45.994 16.684 45.994 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 45.033 8.909 c -0.552 0 -0.999 -0.447 -0.999 -0.999 V 1.027 c 0 -0.552 0.447 -0.999 0.999 -0.999 c 0.552 0 0.999 0.447 0.999 0.999 V 7.91 C 46.032 8.462 45.585 8.909 45.033 8.909 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 45.033 89.961 c -0.552 0 -0.999 -0.447 -0.999 -0.999 v -6.884 c 0 -0.552 0.447 -0.999 0.999 -0.999 c 0.552 0 0.999 0.447 0.999 0.999 v 6.884 C 46.032 89.515 45.585 89.961 45.033 89.961 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 7.949 45.994 H 1.066 c -0.552 0 -0.999 -0.447 -0.999 -0.999 s 0.447 -0.999 0.999 -0.999 h 6.883 c 0.552 0 0.999 0.447 0.999 0.999 S 8.501 45.994 7.949 45.994 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 89.001 45.994 h -6.883 c -0.552 0 -0.999 -0.447 -0.999 -0.999 s 0.447 -0.999 0.999 -0.999 h 6.883 c 0.552 0 0.999 0.447 0.999 0.999 S 89.553 45.994 89.001 45.994 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 18.811 19.771 c -0.256 0 -0.511 -0.098 -0.707 -0.293 l -4.867 -4.867 c -0.39 -0.39 -0.39 -1.023 0 -1.413 s 1.023 -0.39 1.413 0 l 4.867 4.867 c 0.39 0.39 0.39 1.023 0 1.413 C 19.322 19.673 19.066 19.771 18.811 19.771 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 76.124 77.083 c -0.256 0 -0.511 -0.098 -0.707 -0.293 l -4.868 -4.867 c -0.39 -0.39 -0.39 -1.023 0 -1.413 s 1.023 -0.39 1.413 0 l 4.868 4.867 c 0.39 0.39 0.39 1.023 0 1.413 C 76.635 76.986 76.379 77.083 76.124 77.083 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="rs-services-content">
+                                    <h5 class="rs-services-title"><a href="services-details.html">Project Specific Tools</a></h5>
+                                    <div class="rs-services-description">
+                                        <p>Need a tool for just one project or one task? We can build lightweight, purpose-built scripts or tools just for that — without overcomplicating things. </p>
+                                    </div>
+                                    <div class="rs-services-btn">
+                                        <a class="rs-btn has-icon has-transparent" href="services-details.html">Read More
+                                            <span class="icon-box">
+                                    <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                       <path
+                                          d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                       </path>
+                                    </svg>
+                                    <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                       <path
+                                          d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                       </path>
+                                    </svg>
+                                 </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="rs-services-wrapper wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                            <div class="rs-services-item">
+                                <div class="rs-services-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+                                        <defs></defs>
+                                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                            <path d="M 26.509 72.532 c -0.127 0 -0.257 -0.024 -0.382 -0.076 c -1.489 -0.617 -2.649 -1.778 -3.267 -3.27 s -0.618 -3.133 -0.001 -4.621 c 0.764 -1.844 -0.248 -3.136 -0.718 -3.606 c -0.471 -0.471 -1.761 -1.482 -3.607 -0.719 c -1.491 0.616 -3.131 0.616 -4.622 0 c -1.49 -0.617 -2.651 -1.777 -3.268 -3.268 l -3.282 -7.923 c -0.617 -1.487 -0.616 -3.128 0.001 -4.62 c 0.618 -1.492 1.777 -2.653 3.266 -3.27 c 1.846 -0.765 2.045 -2.394 2.045 -3.059 c 0 -0.665 -0.199 -2.294 -2.042 -3.058 c -1.49 -0.617 -2.651 -1.778 -3.269 -3.269 c -0.617 -1.49 -0.617 -3.132 0 -4.622 l 3.281 -7.923 c 0.617 -1.49 1.778 -2.651 3.269 -3.268 c 1.49 -0.618 3.132 -0.617 4.622 0 c 1.844 0.764 3.137 -0.248 3.606 -0.718 c 0.471 -0.471 1.482 -1.764 0.718 -3.607 c -0.617 -1.49 -0.617 -3.131 0 -4.622 c 0.618 -1.491 1.779 -2.651 3.27 -3.269 l 7.921 -3.282 c 1.491 -0.618 3.133 -0.618 4.623 0 c 1.491 0.618 2.652 1.779 3.269 3.27 c 0.763 1.843 2.393 2.042 3.058 2.042 s 2.294 -0.199 3.057 -2.041 c 1.277 -3.076 4.813 -4.542 7.892 -3.269 l 7.924 3.282 c 1.489 0.616 2.649 1.777 3.268 3.268 c 0.616 1.49 0.617 3.13 0.001 4.621 c -0.765 1.847 0.246 3.139 0.717 3.608 c 0.471 0.471 1.76 1.481 3.606 0.718 c 3.075 -1.275 6.614 0.191 7.892 3.266 l 3.282 7.924 c 0.618 1.491 0.618 3.133 0 4.623 c -0.618 1.49 -1.779 2.651 -3.269 3.268 c -1.846 0.764 -2.043 2.392 -2.042 3.057 c 0 0.663 0.197 2.279 2.015 3.047 c 0.01 0.004 0.021 0.008 0.03 0.012 c 3.073 1.274 4.539 4.813 3.267 7.889 l -3.282 7.924 c -1.275 3.071 -4.811 4.537 -7.89 3.27 c -1.844 -0.766 -3.139 0.246 -3.609 0.717 c -0.471 0.47 -1.482 1.761 -0.718 3.606 c 1.273 3.076 -0.192 6.616 -3.267 7.892 c -0.508 0.211 -1.094 -0.029 -1.307 -0.541 c -0.212 -0.51 0.03 -1.095 0.541 -1.307 c 2.056 -0.853 3.036 -3.221 2.185 -5.278 c -1.262 -3.044 0.562 -5.199 1.152 -5.787 c 0.587 -0.588 2.743 -2.411 5.787 -1.15 c 2.056 0.847 4.425 -0.132 5.277 -2.187 l 3.282 -7.922 c 0.847 -2.048 -0.121 -4.403 -2.157 -5.265 c -0.011 -0.003 -0.021 -0.008 -0.03 -0.012 c -3.04 -1.259 -3.276 -4.073 -3.276 -4.905 c -0.001 -0.831 0.231 -3.645 3.276 -4.906 c 0.996 -0.413 1.773 -1.189 2.187 -2.187 c 0.413 -0.996 0.413 -2.094 0 -3.091 l -3.282 -7.924 c -0.854 -2.056 -3.22 -3.038 -5.278 -2.185 c -3.044 1.261 -5.199 -0.562 -5.787 -1.151 c -0.588 -0.587 -2.411 -2.743 -1.149 -5.787 c 0.412 -0.996 0.411 -2.094 -0.001 -3.091 c -0.413 -0.997 -1.189 -1.773 -2.186 -2.186 l -7.924 -3.282 c -2.057 -0.852 -4.424 0.129 -5.278 2.187 c -1.259 3.039 -4.072 3.275 -4.905 3.275 s -3.647 -0.236 -4.906 -3.277 c -0.413 -0.997 -1.189 -1.773 -2.187 -2.187 c -0.996 -0.413 -2.094 -0.413 -3.092 0 l -7.921 3.282 c -0.997 0.413 -1.774 1.189 -2.187 2.186 c -0.413 0.997 -0.413 2.095 0 3.091 c 1.261 3.04 -0.562 5.198 -1.151 5.787 c -0.588 0.589 -2.744 2.414 -5.786 1.152 c -0.997 -0.413 -2.095 -0.413 -3.092 0 c -0.997 0.413 -1.773 1.189 -2.186 2.186 L 9.21 27.917 c -0.413 0.997 -0.413 2.095 0 3.092 c 0.413 0.997 1.189 1.773 2.186 2.186 c 3.041 1.26 3.277 4.074 3.277 4.906 s -0.236 3.645 -3.279 4.906 c -0.995 0.412 -1.77 1.189 -2.183 2.187 c -0.414 0.998 -0.414 2.095 -0.002 3.089 l 3.282 7.923 c 0.413 0.997 1.189 1.772 2.186 2.186 c 0.996 0.411 2.095 0.412 3.092 0 c 3.045 -1.257 5.2 0.563 5.787 1.152 c 0.588 0.589 2.41 2.745 1.151 5.786 c -0.413 0.995 -0.412 2.092 0.001 3.091 c 0.414 0.998 1.189 1.775 2.185 2.187 c 0.51 0.212 0.752 0.797 0.541 1.307 C 27.273 72.3 26.901 72.532 26.509 72.532 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                            <path d="M 61.386 20.659 c -4.867 -4.572 -11.236 -6.857 -17.93 -6.438 C 31.56 14.968 21.957 24.494 21.119 36.38 c -0.56 7.928 2.817 15.597 9.034 20.516 c 3.051 2.414 4.801 5.956 4.801 9.716 v 0.547 v 10.914 c 0 1.41 0.952 2.589 2.244 2.963 v 4.166 c 0 2.646 2.153 4.799 4.799 4.799 h 6.008 c 2.646 0 4.8 -2.152 4.8 -4.799 v -4.166 c 1.291 -0.374 2.243 -1.553 2.243 -2.963 V 67.158 V 66.61 c 0 -3.745 1.732 -7.327 4.633 -9.581 c 5.887 -4.575 9.263 -11.469 9.263 -18.913 C 68.942 31.531 66.188 25.169 61.386 20.659 z M 50.803 85.201 c 0 1.543 -1.256 2.799 -2.8 2.799 h -6.008 c -1.543 0 -2.799 -1.256 -2.799 -2.799 V 81.17 h 11.607 V 85.201 z M 53.047 78.072 c 0 0.605 -0.493 1.098 -1.099 1.098 h -0.145 H 38.197 h -0.146 c -0.605 0 -1.098 -0.492 -1.098 -1.098 v -9.914 h 16.094 V 78.072 z M 40.669 43.232 h -3.789 c -2.089 0 -3.788 -1.699 -3.788 -3.788 c 0 -2.089 1.7 -3.788 3.789 -3.788 c 2.089 0 3.788 1.699 3.788 3.788 V 43.232 z M 42.669 45.232 h 4.662 v 20.926 h -4.662 V 45.232 z M 58.453 55.449 c -3.269 2.54 -5.265 6.517 -5.399 10.71 h -3.723 V 45.232 h 3.788 c 3.191 0 5.788 -2.597 5.788 -5.788 c 0 -3.191 -2.597 -5.788 -5.788 -5.788 c -3.191 0 -5.788 2.597 -5.788 5.788 v 3.788 h -4.662 v -3.788 c 0 -3.191 -2.597 -5.788 -5.789 -5.788 c -3.191 0 -5.788 2.597 -5.788 5.788 c 0 3.191 2.597 5.788 5.788 5.788 h 3.789 v 20.926 h -3.724 c -0.135 -4.205 -2.142 -8.132 -5.552 -10.831 c -5.698 -4.508 -8.793 -11.539 -8.28 -18.807 c 0.768 -10.891 9.567 -19.619 20.468 -20.304 c 6.143 -0.385 11.975 1.71 16.436 5.9 c 4.466 4.194 6.925 9.875 6.925 15.998 C 66.942 44.938 63.847 51.256 58.453 55.449 z M 49.331 43.232 v -3.788 c 0 -2.089 1.699 -3.788 3.788 -3.788 c 2.089 0 3.788 1.699 3.788 3.788 c 0 2.089 -1.699 3.788 -3.788 3.788 H 49.331 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="rs-services-content">
+                                    <h5 class="rs-services-title"><a href="services-details.html">Customer Parameter Management</a></h5>
+                                    <div class="rs-services-description">
+                                        <p>Helping you manage, assign, or extract custom parameters in smarter, more controlled ways. </p>
+                                    </div>
+                                    <div class="rs-services-btn">
+                                        <a class="rs-btn has-icon has-transparent" href="services-details.html">Read More
+                                            <span class="icon-box">
+                                    <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                       <path
+                                          d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                       </path>
+                                    </svg>
+                                    <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                       <path
+                                          d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                       </path>
+                                    </svg>
+                                 </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>  
+        <!-- horizontal line start  -->
+        <div class="section-devider">
+            <hr>
+        </div>
+        <!-- horizontal line end  -->
+
+        <!-- brand area start -->
+        <div class="rs-brand-area rs-brand-two section-space-bottom fix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="swiper brand_active_two wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-wrapper">
+                                        <div class="rs-brand-item text-center">
+                                            <div class="rs-brand-thumb">
+                                                <a href="#">
+                                                    <img src="assets/images/brand/brand-thumb-06.png" alt="image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-wrapper">
+                                        <div class="rs-brand-item text-center">
+                                            <div class="rs-brand-thumb">
+                                                <a href="#">
+                                                    <img src="assets/images/brand/brand-thumb-07.png" alt="image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-wrapper">
+                                        <div class="rs-brand-item text-center">
+                                            <div class="rs-brand-thumb">
+                                                <a href="#">
+                                                    <img src="assets/images/brand/brand-thumb-08.png" alt="image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-wrapper">
+                                        <div class="rs-brand-item text-center">
+                                            <div class="rs-brand-thumb">
+                                                <a href="#">
+                                                    <img src="assets/images/brand/brand-thumb-09.png" alt="image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-wrapper">
+                                        <div class="rs-brand-item text-center">
+                                            <div class="rs-brand-thumb">
+                                                <a href="#">
+                                                    <img src="assets/images/brand/brand-thumb-10.png" alt="image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-wrapper">
+                                        <div class="rs-brand-item text-center">
+                                            <div class="rs-brand-thumb">
+                                                <a href="#">
+                                                    <img src="assets/images/brand/brand-thumb-11.png" alt="image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- brand area end -->
+      <section class="hero">
+    <div class="hero-container">
+      <div class="hero-image">
+                <img src="assets/images/feature/feature-thumb-01.png" alt="image"/>
+      </div>
+      <div class="hero-text">
+       
+        <h1>Let’s Make Something Awesome Together</h1>
+        <p>
+          Every pleasure is to be welcomed and every pain avoided. certain circumstances and owing to the claims welcomed and every pain avoided certain circumstances
+        </p>
+        <!-- <ul class="features">
+          <li>✔️ 30-day money back guarantee</li>
+          <li>✔️ Unlimited Application</li>
+          <li>✔️ Web site Marketing Solutions</li>
+          <li>✔️ 24/7 system Monitoring</li>
+        </ul></a> -->
+        <a href="#contact" class="rs-btn has-color has-radius" style="border-radius: 4em;background-color: #5142d1;">Contact Us </a>
+      </div>
+    </div>
+  </section>
+    <!-- contact area start -->
+ <section id="contact" class="rs-contact-area rs-contact-one has-primary-bg section-space p-relative">
+    <div class="rs-contact-bg" data-background="assets/images/bg/contact-bg-01.png">
+    </div>
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-xl-5 col-lg-5">
+                <div class="rs-contact-wrapper wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s">
+                    <div class="rs-section-title-wrapper section-title-space">
+                        <span class="rs-section-subtitle has-text-style justify-content-start "style="color: #5142d1;">Stay connected
+                        </span>
+                        <h2 class="rs-section-title rs-split-text-enable split-in-fade">Let's Work Together!</h2>
+                    </div>
+                    <div class="rs-contact-list">
+                        <div class="rs-contact-list-item">
+                            <div class="rs-contact-icon">
+                                <span style="background-color: #5142d1;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                        fill="none">
+                                        <path
+                                            d="M3.65387 1.32849C3.40343 1.00649 2.92745 0.976861 2.639 1.26531L1.60508 2.29923C1.1216 2.78271 0.94387 3.46766 1.1551 4.06847C2.00338 6.48124 3.39215 8.74671 5.32272 10.6773C7.25329 12.6078 9.51876 13.9966 11.9315 14.8449C12.5323 15.0561 13.2173 14.8784 13.7008 14.3949L14.7347 13.361C15.0231 13.0726 14.9935 12.5966 14.6715 12.3461L12.3653 10.5524C12.2008 10.4245 11.9866 10.3793 11.7845 10.4298L9.59541 10.9771C9.00082 11.1257 8.37183 10.9515 7.93845 10.5181L5.48187 8.06155C5.04849 7.62817 4.87427 6.99919 5.02292 6.40459L5.57019 4.21553C5.62073 4.01336 5.57552 3.79918 5.44758 3.63468L3.65387 1.32849ZM1.88477 0.511076C2.62689 -0.231039 3.8515 -0.154797 4.49583 0.673634L6.28954 2.97983C6.6187 3.40304 6.73502 3.95409 6.60498 4.47423L6.05772 6.66329C5.99994 6.8944 6.06766 7.13888 6.2361 7.30732L8.69268 9.7639C8.86113 9.93235 9.1056 10.0001 9.33671 9.94229L11.5258 9.39502C12.0459 9.26499 12.597 9.3813 13.0202 9.71047L15.3264 11.5042C16.1548 12.1485 16.231 13.3731 15.4889 14.1152L14.455 15.1492C13.7153 15.8889 12.6089 16.2137 11.5778 15.8512C9.01754 14.9511 6.61438 13.4774 4.56849 11.4315C2.5226 9.38562 1.04895 6.98246 0.148838 4.42225C-0.213682 3.39112 0.11113 2.28472 0.85085 1.545L1.88477 0.511076Z"
+                                            fill="#6D6D6D"></path>
+                                        <path
+                                            d="M11 0.5C11 0.223858 11.2239 0 11.5 0H15.5C15.7761 0 16 0.223858 16 0.5V4.5C16 4.77614 15.7761 5 15.5 5C15.2239 5 15 4.77614 15 4.5V1.70711L10.8536 5.85355C10.6583 6.04882 10.3417 6.04882 10.1464 5.85355C9.95118 5.65829 9.95118 5.34171 10.1464 5.14645L14.2929 1H11.5C11.2239 1 11 0.776142 11 0.5Z"
+                                            fill="#6D6D6D"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="rs-contact-list-content">
+                                <span>Phone</span>
+                                <h6><a href="tel:+12346691234"> +91-96891 29430 </a></h6>
+                            </div>
+                        </div>
+                        <div class="rs-contact-list-item">
+                            <div class="rs-contact-icon">
+                                <span style="background-color: #5142d1;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                        fill="none">
+                                        <path
+                                            d="M2 2C0.895431 2 0 2.89543 0 4V12L2.58386e-05 12.0103C0.00555998 13.1101 0.898859 14 2 14H7.5C7.77614 14 8 13.7761 8 13.5C8 13.2239 7.77614 13 7.5 13H2C1.53715 13 1.14774 12.6855 1.03376 12.2586L6.67417 8.7876L8 9.5831L15 5.3831V8.5C15 8.77614 15.2239 9 15.5 9C15.7761 9 16 8.77614 16 8.5V4C16 2.89543 15.1046 2 14 2H2ZM5.70808 8.20794L1 11.1052V5.3831L5.70808 8.20794ZM1 4.2169V4C1 3.44772 1.44772 3 2 3H14C14.5523 3 15 3.44772 15 4V4.2169L8 8.4169L1 4.2169Z"
+                                            fill="#6D6D6D"></path>
+                                        <path
+                                            d="M14.2467 14.2686C15.2567 14.2686 15.8339 13.4116 15.8339 12.2442V12.0344C15.8339 10.4297 14.6402 9 12.5197 9H12.4847C10.421 9 9 10.3598 9 12.4322V12.6465C9 14.8195 10.4385 16 12.3579 16H12.4016C12.9963 16 13.4204 15.9257 13.639 15.8251V15.0949C13.3941 15.2042 12.9656 15.2742 12.4585 15.2742H12.4147C11.0812 15.2742 9.84385 14.4872 9.84385 12.6202V12.4628C9.84385 10.8057 10.9019 9.73891 12.4847 9.73891H12.524C14.0587 9.73891 15.0409 10.6481 15.0409 12.0344V12.2371C15.0409 12.983 14.568 13.4563 13.8037 13.4563H13.6557V12.8041H13.9896V12.4951H13.6557V12.0344C13.6557 11.6337 13.4525 11.3934 13.0518 11.3934H12.5638V10.685H13.0518C14.0502 10.685 14.5743 11.2228 14.5743 12.0344V12.3216C14.5743 13.0845 14.0383 13.5306 13.1965 13.5306H13.0504V14.2098H13.1965C14.204 14.2098 14.7195 13.6811 14.7195 12.8453V12.6622C14.7195 12.0845 14.4432 11.6968 13.9035 11.6968H13.7519V11.0218H13.9035C14.8039 11.0218 15.2213 11.451 15.2213 12.0652V12.2311C15.2213 12.7742 14.9164 13.0769 14.3357 13.0769H14.2526V13.8255H14.3357C15.2704 13.8255 15.7797 13.3713 15.7797 12.6476V12.4774C15.7797 11.9684 15.4955 11.6667 14.9847 11.6667H14.8476V10.9407H14.9847C15.7475 10.9407 16.0966 11.4444 16.0966 12.0077V12.1868C16.0966 12.6959 15.8009 13.045 15.2901 13.045H15.2175V13.8199H15.2901C16.222 13.8199 16.7228 13.3647 16.7228 12.6336V12.4644C16.7228 11.9519 16.4324 11.6494 15.9274 11.6494H15.7934V10.9367H15.9274C16.6548 10.9367 17.0702 11.4294 17.0702 11.9939V12.1698C17.0702 12.6884 16.7865 13.0285 16.2761 13.0285H16.2019V13.823H16.2761C17.2108 13.823 17.7201 13.3678 17.7201 12.6336V12.4644C17.7201 11.9519 17.4297 11.6494 16.9247 11.6494H16.7907V10.9367H16.9247C17.6155 10.9367 18.0222 11.4434 18.0222 12.0077V12.1868C18.0222 12.696 17.7274 13.0461 17.217 13.0461H17.1427V13.8255H17.217C18.1432 13.8255 18.6439 13.3713 18.6439 12.6476V12.4774C18.6439 11.9684 18.3597 11.6667 17.8489 11.6667H17.7118V10.9407H17.8489C18.6153 10.9407 19.0299 11.4434 19.0299 12.0077V12.1868C19.0299 12.696 18.7351 13.0461 18.2247 13.0461H18.1516V13.823H18.2247C19.1594 13.823 19.669 13.3678 19.669 12.6336V12.4644C19.669 11.9519 19.3786 11.6494 18.8736 11.6494H18.7396V10.9367H18.8736C19.5887 10.9367 20 11.437 20 12.0017V12.1808C20 12.696 19.7052 13.045 19.1948 13.045H19.1216V13.823H19.1948C20.1295 13.823 20.6392 13.3678 20.6392 12.6336V12.4644C20.6392 11.9519 20.3488 11.6494 19.8438 11.6494H19.7098V10.9367H19.8438C20.6582 10.9367 21.0688 11.437 21.0688 12.0017V12.1808C21.0688 12.696 20.774 13.045 20.2636 13.045H20.1904V13.823H20.2636C21.1983 13.823 21.7079 13.3678 21.7079 12.6336V12.4644C21.7079 11.9519 21.4175 11.6494 20.9125 11.6494H20.7785V10.9367H20.9125C21.6424 10.9367 22.062 11.4434 22.062 12.0077V12.1868C22.062 12.696 21.7672 13.045 21.2568 13.045H21.1836V13.823H21.2568C22.1915 13.823 22.7012 13.3678 22.7012 12.6336V12.4644C22.7012 11.9519 22.4108 11.6494 21.9058 11.6494H21.7718V10.9367H21.9058C22.5915 10.9367 23 11.437 23 12.0017V12.1808C23 12.696 22.7052 13.045 22.1948 13.045H22.1216V13.823H22.1948C23.1295 13.823 23.6392 13.3678 23.6392 12.6336V12.4644C23.6392 11.9519 23.3488 11.6494 22.8438 11.6494H22.7098V10.9367H22.8438C23.6582 10.9367 24.0688 11.437 24.0688 12.0017V12.1808C24.0688 12.696 23.774 13.045 23.2636 13.045H23.1904V13.823H23.2636C24.1983 13.823 24.7079 13.3678 24.7079 12.6336V12.4644C24.7079 11.9519 24.4175 11.6494 23.9125 11.6494H23.7785V10.9367H23.9125Z"
+                                            fill="#6D6D6D"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="rs-contact-list-content">
+                                <span>Email</span>
+                                <h6><a
+                                        href="mailto:pratapkumar0207@gmail.com">singhjyotivm@gmail.com</a>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="rs-contact-list-item">
+                            <div class="rs-contact-icon">
+                                <span style="background-color: #5142d1;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                        fill="none">
+                                        <path
+                                            d="M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8Z"
+                                            stroke="#6D6D6D" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M8 10C8.55228 10 9 9.55228 9 9C9 8.44772 8.55228 8 8 8C7.44772 8 7 8.44772 7 9C7 9.55228 7.44772 10 8 10Z"
+                                            fill="#6D6D6D"></path>
+                                        <path
+                                            d="M8 4C8.72861 4 9.40215 4.21487 9.92008 4.58849C10.5554 5.0666 10.9065 5.83684 10.9065 6.62731"
+                                            stroke="#6D6D6D" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path
+                                            d="M7.09351 6.62732C7.09351 5.83682 7.44457 5.06658 8.0799 4.58846C8.59785 4.21487 9.27138 4 10 4"
+                                            stroke="#6D6D6D" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="rs-contact-list-content">
+                                <span>Location</span>
+                                <h6>Vapi, India - 396195</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7">
+                <div class="rs-contact-form has-bg wow fadeInRight" data-wow-delay=".3s" data-wow-duration="1s">
+                    <form id="contact-form" action="http://localhost:8080/assets/mailer" method="POST">
+                        <div class="row g-5">
+                            <div class="col-md-6">
+                                <div class="rs-contact-input">
+                                    <input id="name" name="name" type="text" placeholder="Full Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="rs-contact-input">
+                                    <input id="email" name="email" type="email" placeholder="Email Address" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="rs-contact-input">
+                                    <input id="phone" name="phone" type="text" placeholder="Phone Number" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="rs-contact-input">
+                                    <select id="subject" name="subject" required>
+                                        <option value="">Choose Service</option>
+                                        <option value="Web Development">Web Development</option>
+                                        <option value="Digital Marketing">Digital Marketing</option>
+                                        <option value="Brand Strategy">Brand Strategy</option>
+                                        <option value="App Development">App Development</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="rs-contact-input">
+                                    <textarea id="message" name="message" placeholder="Write Your Message" required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="rs-contact-btn">
+                                    <button type="submit" class="rs-btn has-color has-radius" style="border-radius: 4em;background-color: #5142d1;">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="form-messages"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<!-- contact area end -->
+
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const service = document.getElementById('subject').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    if (!name || !email || !phone || !service || !message || service === "Choose Service") {
+        alert('Please fill in all fields.');
+        return;
+    }
+
+    // Service entry mapping
+    let serviceValue = '';
+    if (service === "Web Development") serviceValue = "Web Development";
+    else if (service === "Digital Marketing") serviceValue = "Digital Marketing";
+    else if (service === "Brand Strategy") serviceValue = "Brand Strategy";
+    else if (service === "App Development") serviceValue = "App Development";
+    else {
+        alert("Please select a valid service.");
+        return;
+    }
+
+    // Google Form entry IDs
+    const formData = new FormData();
+    formData.append('entry.602317381', name);         // Name
+    formData.append('entry.1550199850', email);       // Email
+    formData.append('entry.95640920', phone);         // Phone
+    formData.append('entry.483591966', serviceValue); // Service
+    formData.append('entry.1759167584', message);     // Message
+
+    fetch('https://docs.google.com/forms/d/e/1FAIpQLSePlxc9pREOrDC9HkGlH8X3Ya-cnMPmHwcXp-ESD04dz2w0fw/formResponse', {
+        method: 'POST',
+        mode: 'no-cors',
+        body: formData
+    }).then(() => {
+        alert('Your message has been submitted successfully!');
+        document.getElementById('contact-form').reset();
+    }).catch((error) => {
+        console.error('Submission error:', error);
+        alert('There was a problem submitting the form. Please try again.');
+    });
+});
+</script>
+
+
+        <!-- contact area end -->
+
+    </main>
+    <!-- Body main wrapper end -->
+  <!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Kushal Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#services"><i class="fas fa-chevron-circle-right"></i> Services</a>
+          <a href="portfolio-details.html"><i class="fas fa-chevron-circle-right"></i> Products</a>
+          <a href="#contact"><i class="fas fa-chevron-circle-right"></i> Contact</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p style="height: 10px;"> <i class="fas fa-phone"></i>+91 9689129430</p>
+          <p style="height: 10px;"> <i class="fas fa-envelope"></i>singhjyotivmgmail.com</p>
+          <p style="height: 10px;"> <i class="fas fa-map-marked-alt"></i>Vapi, India-396195</p>
+          <div class="share" style="height: 40px;">
+
+              <a href="https://www.linkedin.com/in/Jyoti Singh" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <!-- <a href="https://github.com/jigar-sable" class="fab fa-github" aria-label="GitHub" target="_blank"></a> -->
+              <a href="mailto:singhjyotivm@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <!-- <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a> -->
+              <a href="https://t.me/im_jyotivm" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+              
+
+              
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit" style="height: 40px;">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/jyoti singh"> Jyoti & Satyam</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+    <!-- back to top -->
+    <!-- Backtotop start -->
+    <div class="backtotop-wrap cursor-pointer">
+        <svg class="backtotop-circle svg-content" style="background-color: #5142d1;" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Backtotop end -->
+
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/meanmenu.min.js"></script>
+    <script src="assets/js/plugins/swiper.min.js"></script>
+    <script src="assets/js/plugins/wow.js"></script>
+    <script src="assets/js/vendor/magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/plugins/nice-select.min.js"></script>
+    <script src="assets/js/plugins/jarallax.min.js"></script>
+    <script src="assets/js/vendor/ajax-form.js"></script>
+    <script src="assets/js/plugins/easypie.js"></script>
+    <script src="assets/js/plugins/headding-title.js"></script>
+    <script src="assets/js/plugins/lenis.min.js"></script>
+    <script src="assets/js/plugins/gsap.min.js"></script>
+    <script src="assets/js/plugins/rs-anim-int.js"></script>
+    <script src="assets/js/plugins/rs-scroll-trigger.min.js"></script>
+    <script src="assets/js/plugins/rs-splitText.min.js"></script>
+    <script src="assets/js/plugins/jquery.lettering.js"></script>
+    <script src="assets/js/plugins/parallax-effect.min.js"></script>
+    <script src="assets/js/vendor/purecounter.js"></script>
+    <script src="assets/js/vendor/dark-light.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/typewritinganimation.js"></script>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS('particles-js', {
+    "particles": {
+      "number": { "value": 100, "density": { "enable": true, "value_area": 800 }},
+      "color": { "value": "#808080" },
+      "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }},
+      "opacity": { "value": 0.5, "random": false },
+      "size": { "value": 4, "random": true },
+      "line_linked": {
+        "enable": true, "distance": 150, "color": "#808080", "opacity": 0.4, "width": 1
+      },
+      "move": {
+        "enable": true, "speed": 6, "direction": "none", "random": false,
+        "straight": false, "out_mode": "out", "attract": { "enable": false }
+      }
+    },
+   "interactivity": {
+  "detect_on": "canvas",
+  "events": {
+    "onhover": { "enable": true, "mode": "repulse" },
+    "onclick": { "enable": true, "mode": "push" },
+    "resize": true
+  },
+  "modes": {
+    "repulse": { "distance": 250, "duration": 0.6 },
+    "push": { "particles_nb": 4 }
+  }
+},
+    "retina_detect": true
+  });
+</script>
+
+
+
+</body>
+
+
+<!-- Mirrored from demo.rstheme.com/html/flixta/index-seo-specialist.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Jun 2025 08:19:46 GMT -->
+</html>

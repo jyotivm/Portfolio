@@ -104,7 +104,7 @@
 		   </label>
 		</div>
 
-		<div class="rs-theme-settings">
+	<!--	<div class="rs-theme-settings">
 		   <div class="rs-theme-settings-wrapper">
 			  <div class="rs-theme-settings-open">
 				 <button class="rs-theme-settings-open-btn">
@@ -117,7 +117,7 @@
 				 </button>
 			  </div>
 		   </div>
-		</div> 
+		</div> -->
 	 </div>
 		 </div>`;
         settings.append(settings_html);

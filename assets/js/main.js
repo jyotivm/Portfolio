@@ -933,7 +933,7 @@ Sidebar Toggle
 
 
     // Contact Form Activation
-    var form = $('#contact-form');
+    /* var form = $('#contact-form');
     var formMessages = $('#form-messages');
     $(form).submit(function (e) {
         e.preventDefault();
@@ -963,7 +963,7 @@ Sidebar Toggle
                 $(formMessages).text('Oops! An error occurred and your message could not be sent.');
             }
         });
-    });
+    }); */
 
 
 

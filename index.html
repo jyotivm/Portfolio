@@ -294,6 +294,8 @@
   background: #5a4cd1;
 }
 
+
+
 </style>
 </head>
 
@@ -771,7 +773,7 @@
                                     </svg>
                                 </div>
                                 <div class="rs-services-content">
-                                    <h5 class="rs-services-title">Customer Softwere Development</h5>
+                                    <h5 class="rs-services-title">Customer Software Development</h5>
                                     <div class="rs-services-description">
                                         <p>Building Revit add-ins and automation tools tailored to your project needs. From custom scripts to full plugins — built to fit your workflow. </p>
                                     </div>
@@ -1019,18 +1021,19 @@
       </div>
     </div>
   </section>
+
     <!-- contact area start -->
  <section id="contact" class="rs-contact-area rs-contact-one has-primary-bg section-space p-relative">
     <div class="rs-contact-bg" data-background="assets/images/bg/contact-bg-01.png">
     </div>
     <div class="container">
         <div class="row align-items-center g-5">
-            <div class="col-xl-5 col-lg-5">
+            <div class="col-xl-4 col-lg-4">
                 <div class="rs-contact-wrapper wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s">
                     <div class="rs-section-title-wrapper section-title-space">
                         <span class="rs-section-subtitle has-text-style justify-content-start "style="color: #5142d1;">Stay connected
                         </span>
-                        <h2 class="rs-section-title rs-split-text-enable split-in-fade">Let's Work Together!</h2>
+                        <h4 class="rs-section-title rs-split-text-enable split-in-fade" style="font-size: 36px;">Let's Work Together!</h4>
                     </div>
                     <div class="rs-contact-list">
                         <div class="rs-contact-list-item">
@@ -1103,9 +1106,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-7 col-lg-7">
+            <div class="col-xl-8 col-lg-8">
                 <div class="rs-contact-form has-bg wow fadeInRight" data-wow-delay=".3s" data-wow-duration="1s">
-                   <!--  <form id="contact-form" action="http://localhost:8080/assets/mailer" method="POST"> -->
                      <form id="contact-form">
                         <div class="row g-5">
                             <div class="col-md-6">
@@ -1120,18 +1122,19 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="rs-contact-input">
-                                    <input id="phone" name="phone" type="text" placeholder="Phone Number" required>
+                                    <input id="phone" name="phone" type="tel" placeholder="Phone Number" pattern="\d{10}" maxlength="10" required oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="rs-contact-input">
                                     <select id="subject" name="subject" required>
                                         <option value="">Choose Service</option>
-                                        <option value="Web Development">Web Development</option>
-                                        <option value="Digital Marketing">Digital Marketing</option>
-                                        <option value="Brand Strategy">Brand Strategy</option>
-                                        <option value="App Development">App Development</option>
+                                        <option value="Customer Software Development">Customer Software Development</option>
+                                        <option value="Model based Quantity Extraction">Model based Quantity Extraction</option>
+                                        <option value="Project Specific Tools">Project Specific Tools</option>
+                                        <option value="Customer Parameter Management">Customer Parameter Management</option>
                                     </select>
+
                                 </div>
                             </div>
                             <div class="col-md-12">
@@ -1152,6 +1155,35 @@
         </div>
     </div>
 </section> 
+<div id="thankyouMessage" style="
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #5142d1;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+">
+    ✅ Thank you! Your message has been submitted.
+</div>
+<!-- Error message -->
+<div id="errorMessage" style="
+    display: none;
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    background-color: #dc3545;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+">
+    ❌ There was a problem submitting the form. Please try again.
+</div>
 
 <!-- contact area end -->
 
@@ -1159,49 +1191,68 @@
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
 
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const phone = document.getElementById('phone').value.trim();
+    // Get input values
+    const name    = document.getElementById('name').value.trim();
+    const email   = document.getElementById('email').value.trim();
+    const phone   = document.getElementById('phone').value.trim();
     const service = document.getElementById('subject').value.trim();
     const message = document.getElementById('message').value.trim();
 
-    if (!name || !email || !phone || !service || !message || service === "Choose Service") {
-        alert('Please fill in all fields.');
+    // Basic validation
+    if (!name || !email || !phone || !service || service === "Choose Service" || !message) {
+        alert('Please fill in all fields correctly.');
         return;
     }
 
-    // Service entry mapping
-    let serviceValue = '';
-    if (service === "Web Development") serviceValue = "Web Development";
-    else if (service === "Digital Marketing") serviceValue = "Digital Marketing";
-    else if (service === "Brand Strategy") serviceValue = "Brand Strategy";
-    else if (service === "App Development") serviceValue = "App Development";
-    else {
+    // Validate service selection
+    const validServices = [
+        "Customer Software Development",
+        "Model based Quantity Extraction",
+        "Project Specific Tools",
+        "Customer Parameter Management"
+    ];
+    if (!validServices.includes(service)) {
         alert("Please select a valid service.");
         return;
     }
 
-    // Google Form entry IDs
+    // Prepare form data with correct Google Form entry IDs
     const formData = new FormData();
-    formData.append('entry.602317381', name);         // Name
-    formData.append('entry.1550199850', email);       // Email
-    formData.append('entry.95640920', phone);         // Phone
-    formData.append('entry.483591966', serviceValue); // Service
-    formData.append('entry.1759167584', message);     // Message
+    formData.append('entry.751921461', name);           // Name
+    formData.append('entry.470256167', phone);          // Mobile Number
+    formData.append('entry.1789705812', email);         // Email ID
+    formData.append('entry.983760382', service);        // Service selected by user
+    formData.append('entry.2000852152', message);       // Message
 
-    fetch('https://docs.google.com/forms/d/e/1FAIpQLSePlxc9pREOrDC9HkGlH8X3Ya-cnMPmHwcXp-ESD04dz2w0fw/formResponse', {
+    // Send data using fetch API without redirect
+    fetch('https://docs.google.com/forms/d/e/1FAIpQLScdviChkvSnV4HGmAX-maHpYIGkueBMXVnI79wrQWOIlTSYDA/formResponse', {
         method: 'POST',
         mode: 'no-cors',
         body: formData
-    }).then(() => {
-        alert('Your message has been submitted successfully!');
+    })
+    .then(() => {
+        showPopup('thankyouMessage', '✅ Thank you! Your message has been submitted.');
         document.getElementById('contact-form').reset();
-    }).catch((error) => {
+    })
+    .catch((error) => {
         console.error('Submission error:', error);
-        alert('There was a problem submitting the form. Please try again.');
+        showPopup('errorMessage', '❌ There was a problem submitting the form. Please try again.');
     });
 });
+
+// Reusable popup function
+function showPopup(id, message) {
+    const popup = document.getElementById(id);
+    if (popup) {
+        popup.innerText = message;
+        popup.style.display = 'block';
+        setTimeout(() => {
+            popup.style.display = 'none';
+        }, 3000); // Show for 10 seconds
+    }
+}
 </script>
+
 
 
         <!-- contact area end -->
@@ -1219,7 +1270,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
       </div>
 
       <div class="box">
-          <h3>quick links</h3>
+          <h3>Quick links</h3>
           <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
           <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
           <a href="#services"><i class="fas fa-chevron-circle-right"></i> Services</a>
@@ -1328,6 +1379,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
       marquee.classList.toggle('paused');
     }
   </script>
+  
   
 </body>
 
